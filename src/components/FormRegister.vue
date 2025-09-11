@@ -41,7 +41,7 @@
     <Input
         v-model="registerForm.indicated_mobile_phone"
         type="tel"
-        placeholder="WhatsApp / Celular ( Aluno Indicado )"
+        placeholder="WhatsApp / Celular do Aluno Indicado"
         required
         v-mask="'(##) #####-####'"
         aria-label="WhatsApp"
@@ -82,7 +82,7 @@
     </div>
 
     <Button type="submit" :disabled="isSubmitting">
-      {{ isSubmitting ? 'Salvando...' : 'Confirmar Inscrição' }}
+      {{ isSubmitting ? 'Salvando...' : 'Confirmar' }}
     </Button>
   </form>
 </template>

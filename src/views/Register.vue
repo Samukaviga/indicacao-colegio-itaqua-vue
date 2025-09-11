@@ -4,7 +4,7 @@
       <h2 class="text-2xl font-bold text-gray-800 mb-3 text-center">Indique um amigo!</h2>
       <p class="text-sm text-gray-600 text-center mb-6">
         Preencha todos os campos abaixo para <br/>
-        concorrer a um <span class="font-bold text-blue-900">Desconto de até 100%, Alexa, Table, Kit uniforme</span>.
+        concorrer a um <span class="font-bold text-blue-900">Desconto de até 100%, Alexa, Table e um Kit uniforme</span>.
       </p>
 
       <FormRegister/>
