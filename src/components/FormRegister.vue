@@ -47,33 +47,8 @@
         aria-label="WhatsApp"
         :error="errors.indicated_mobile_phone"
     />
-
-    <Input
-        v-model="registerForm.indicated_email"
-        type="email"
-        placeholder="E-mail do Aluno Indicado"
-        required
-        aria-label="E-mail"
-        :error="errors.indicated_email"
-    />
-
   
-    <Input
-        v-model="registerForm.indicated_date_of_birth"
-        type="tel"
-        placeholder="Data de nascimento do Aluno indicado"
-        v-mask="'##/##/####'"
-        aria-label="Data de nascimento"
-        :error="errors.indicated_date_of_birth"
-    />
-
-    <Select
-        v-model="registerForm.indicated_education_level"
-        placeholder="Série Atual"
-        :options="availableGroupedOptions()"
-        :error="errors.indicated_education_level"
-    />
-
+  
      <div class="flex items-start gap-2 text-sm">
       <input id="aceito-termos" type="checkbox" required class="mt-1 accent-blue-800"/>
       <label for="aceito-termos" class="select-none">

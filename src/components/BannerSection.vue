@@ -1,11 +1,11 @@
 <template>
   <section class="w-full lg:w-1/2 flex flex-col items-center justify-center">
-    <div class="w-full flex justify-center mb-6 pt-8">
+    <div class="w-full flex justify-center mb-1 pt-8">
       <img :src="logoBolsas" alt="Bolsas de Estudo Colégio Itaquá"
-           class="max-w-xs md:max-w-sm lg:max-w-md w-full mb-4 drop-shadow-lg select-none pointer-events-none"
+           class="max-w-xs md:max-w-sm lg:max-w-md w-full mb-1 drop-shadow-lg select-none pointer-events-none"
            draggable="false" />
     </div>
-    <div class="w-full flex justify-center mt-3 mb-4 pb-6">
+    <div class="w-full flex justify-center mb-1 pb-2">
       <img :src="logo" alt="Colégio Itaquá" class="h-20 lg:h-25" fetchpriority="high" />
     </div>
   </section>
