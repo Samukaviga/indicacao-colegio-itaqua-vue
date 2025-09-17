@@ -6,9 +6,7 @@
       </div>
       <div class="flex gap-4">
         <a
-            href="https://www.colegioitaqua.com.br/bolsas/regulamento-colegio-itaqua-2025.pdf"
-            download
-            target="_blank"
+            href="/"
             class="underline hover:text-blue-900"
         >Regulamento do Colégio Itaqua</a>
       </div>
