@@ -8,6 +8,7 @@
         <a
             href="/regulamento"
             target="_blank"
+            rel="noopener noreferrer"
             class="underline hover:text-blue-900"
         >Regulamento do Colégio Itaqua</a>
       </div>
