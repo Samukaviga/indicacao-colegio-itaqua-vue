@@ -46,8 +46,8 @@ const routes = [
         name: 'regulamentoDownload',
         beforeEnter() {
             const link = document.createElement('a');
-            link.href = 'https://tiagoandre.sfo2.digitaloceanspaces.com/regulamentos/regulamento-colegio-itaqua-2025.pdf';
-            link.setAttribute('download', 'regulamento-colegio-itaqua-2025.pdf');
+            link.href = 'https://tiagoandre.sfo2.digitaloceanspaces.com/regulamentos/regulamento-indicacao-colegio-itaqua.pdf';
+            link.setAttribute('download', 'regulamento-indicacao-colegio-itaqua-2025.pdf');
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);

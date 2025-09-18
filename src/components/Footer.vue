@@ -6,7 +6,8 @@
       </div>
       <div class="flex gap-4">
         <a
-            href="/"
+            href="/regulamento"
+            target="_blank"
             class="underline hover:text-blue-900"
         >Regulamento do Colégio Itaqua</a>
       </div>
